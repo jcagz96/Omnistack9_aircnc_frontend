@@ -35,6 +35,10 @@ export default function Dashboard() {
         loadSpots();
     }, []);
 
+    function clearLocalStorage() {
+        localStorage.clear();
+    }
+
     async function handleAccept(id) {
         api.post(`/bookings/${id}/approvals`);
 
@@ -76,6 +80,12 @@ export default function Dashboard() {
             <Link to="/new">
                 <button className="btn">
                     Cadastrar novo spot
+                </button>
+            </Link>
+
+            <Link to="/">
+                <button className="btn-logout" onClick={clearLocalStorage}>
+                    Logout
                 </button>
             </Link>
         </>

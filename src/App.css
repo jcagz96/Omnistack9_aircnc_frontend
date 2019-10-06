@@ -88,3 +88,22 @@ body, input, button {
 .content button.btn:hover {
   background: #e14f50;
 }
+
+
+.content button.btn-logout {
+  border: 0;
+  border-radius: 2px;
+  width: 100%;
+  height: 42px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #ffffff;
+  color: #f05a5b;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.content button.btn-logout:hover {
+  background: #f7f2f2;
+}
