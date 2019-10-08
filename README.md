@@ -14,7 +14,7 @@ You can test website if you click [here](https://omnistack9-aircnc-frontend.hero
 ## Aircnc repositories
 Mobile repository [aircnc mobile App](https://github.com/jcagz96/Omnistack9_aircnc_mobile)
 
-Backend repository [aircnc ba](https://github.com/jcagz96/Omnistack9_aircnc_frontend)
+Backend repository [aircnc backend](https://github.com/jcagz96/Omnistack9_aircnc_backend)
 
 ## Installation
 

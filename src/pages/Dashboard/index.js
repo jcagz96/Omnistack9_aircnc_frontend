@@ -57,7 +57,7 @@ export default function Dashboard() {
                 {requests.map(request => (
                     <li key={request._id}>
                         <p>
-                            <strong>{request.user.email}</strong> está solicitando uma reserva em <strong>{request.spot.company}</strong> para a data : <strong>{request.date}</strong>
+                            <strong>{request.user.email}</strong> está solicitando uma reserva em <strong>{request.spot.company}</strong> para a data : <strong>{request.formated_date}</strong>
                         </p>
                         <button className="accept" onClick={() => handleAccept(request._id)}>ACEITAR</button>
                         <button className="reject" onClick={() => handleReject(request._id)}>REJEITAR</button>
